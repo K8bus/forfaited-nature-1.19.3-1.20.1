@@ -1,4 +1,4 @@
-package as.forfeitednature;
+package as.forfeitednaturemod;
 
 
 import net.fabricmc.api.ClientModInitializer;

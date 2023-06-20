@@ -13,17 +13,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/forfeitednature/icon.png",
+	"icon": "assets/forfeitednaturemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"as.forfeitednature.ForfeitedNatureMod"
+			"as.forfeitednaturemod.ForfeitedNatureMod"
 		],
 		"client": [
-			"as.forfeitednature.ForfeitedNatureModClient"
+			"as.forfeitednaturemod.ForfeitedNatureModClient"
 		],
 		"fabric-datagen": [
-			"as.forfeitednature.FNModDataGenerator"
+			"as.forfeitednaturemod.FNModDataGenerator"
 		]
 	},
 	"mixins": [
