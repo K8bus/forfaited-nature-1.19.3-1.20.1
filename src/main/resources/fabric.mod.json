@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "forfeitednaturemod",
+	"version": "0.0.1",
+	"name": "Forfeited Nature",
+	"description": "A mod that adds a bunch of nature related stuff to Minecraft.",
+	"authors": [
+		"K8bus",
+		"D4ria"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/forfeitednature/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"as.forfeitednature.ForfeitedNatureMod"
+		],
+		"client": [
+			"as.forfeitednature.ForfeitedNatureModClient"
+		],
+		"fabric-datagen": [
+			"as.forfeitednature.FNModDataGenerator"
+		]
+	},
+	"mixins": [
+		"forfeited-nature.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
