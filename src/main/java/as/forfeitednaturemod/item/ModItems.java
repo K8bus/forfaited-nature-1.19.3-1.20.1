@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item AMBER_CHUNK = registerItem("amber_chunk",
             new Item(new Item.Settings()));
-    public static final Item LUMINESCENT_CRYSTAL = registerItem("luminescent_crystal",
+    public static final Item LUMINESCENT_CRYSTAL_SHARD = registerItem("luminescent_crystal_shard",
             new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -20,7 +20,7 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.RESOURCES, AMBER_CHUNK);
-        addToItemGroup(ModItemGroup.RESOURCES, LUMINESCENT_CRYSTAL);
+        addToItemGroup(ModItemGroup.RESOURCES, LUMINESCENT_CRYSTAL_SHARD);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

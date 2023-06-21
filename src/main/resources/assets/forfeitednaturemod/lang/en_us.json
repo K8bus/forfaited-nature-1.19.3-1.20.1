@@ -1,4 +1,10 @@
 {
   "item.forfeitednaturemod.amber_chunk": "Amber Chunk",
-  "item.forfeitednaturemod.luminescent_crystal": "Luminescent Crystal"
+  "item.forfeitednaturemod.luminescent_crystal_shard": "Luminescent Crystal Shard",
+
+  "block.forfeitednaturemod.amber_block": "Amber Block",
+  "block.forfeitednaturemod.raw_amber_block": "Raw Amber Block",
+  "block.forfeitednaturemod.luminescent_crystal_block": "Luminescent Crystal Block",
+  "block.forfeitednaturemod.polished_luminescent_crystal_block": "Polished Luminescent Crystal Block",
+  "block.forfeitednaturemod.luminescent_crystal_bud": "Luminescent Crystal Bud"
 }

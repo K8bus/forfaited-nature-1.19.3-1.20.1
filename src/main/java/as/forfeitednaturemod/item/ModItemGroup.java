@@ -13,7 +13,7 @@ public class ModItemGroup {
     public static void registerItemGroups() {
         RESOURCES = FabricItemGroup.builder(new Identifier(ForfeitedNatureMod.MOD_ID, "resources"))
                 .displayName(Text.literal("FN Resources"))
-                .icon(() -> new ItemStack(ModItems.AMBER_CHUNK)).build();
+                .icon(() -> new ItemStack(ModItems.LUMINESCENT_CRYSTAL_SHARD)).build();
 
     }
 }

@@ -1,5 +1,6 @@
 package as.forfeitednaturemod;
 
+import as.forfeitednaturemod.block.ModBlocks;
 import as.forfeitednaturemod.item.ModItemGroup;
 import as.forfeitednaturemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,7 @@ public class ForfeitedNatureMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}
 }

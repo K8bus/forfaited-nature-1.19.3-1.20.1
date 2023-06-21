@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forfeitednaturemod:block/raw_amber_block"
+  }
+}
