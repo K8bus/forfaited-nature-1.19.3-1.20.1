@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "luminescent_crystal_bud",
-		"particle": "luminescent_crystal_bud"
+		"0": "forfeitednaturemod:block/luminescent_crystal_bud",
+		"particle": "forfeitednaturemod:block/luminescent_crystal_bud"
 	},
 	"elements": [
 		{

@@ -30,7 +30,6 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.CALCITE)),
             ModItemGroup.RESOURCES);
 
-
     public static final Block LUMINESCENT_CRYSTAL_BLOCK = registerBlock("luminescent_crystal_block",
             new Block(FabricBlockSettings.of(Material.AMETHYST)
                     .emissiveLighting((state, world, pos) -> true)
@@ -55,9 +54,9 @@ public class ModBlocks {
                     .strength(1.5f, 6.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .luminance(8)),
+                    .luminance(8)
+                    .nonOpaque()),
             ModItemGroup.RESOURCES);
-
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
