@@ -8,6 +8,7 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     public static final Item AMBER_CHUNK = registerItem("amber_chunk",
@@ -20,8 +21,8 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, AMBER_CHUNK);
-        addToItemGroup(ItemGroups.INGREDIENTS, LUMINESCENT_CRYSTAL);
+        addToItemGroup(ModItemGroup.RESOURCES, AMBER_CHUNK);
+        addToItemGroup(ModItemGroup.RESOURCES, LUMINESCENT_CRYSTAL);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
